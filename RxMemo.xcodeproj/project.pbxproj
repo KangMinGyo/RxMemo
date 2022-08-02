@@ -50,13 +50,13 @@
 				6518DA1046F3F6B05F37A29D /* Pods-RxMemo.debug.xcconfig */,
 				191B59F4A49B1A987ABECE80 /* Pods-RxMemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		8C715ECC2898F1B6003BDA2E = {
 			isa = PBXGroup;
 			children = (
+				8C715EEF2898F3CE003BDA2E /* Model */,
 				8C715ED72898F1B6003BDA2E /* RxMemo */,
 				8C715ED62898F1B6003BDA2E /* Products */,
 				5FE2FB9541433C8C113C58FD /* Pods */,
@@ -85,6 +85,13 @@
 				8C715EE12898F1B6003BDA2E /* RxMemo.xcdatamodeld */,
 			);
 			path = RxMemo;
+			sourceTree = "<group>";
+		};
+		8C715EEF2898F3CE003BDA2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		91CED40B811E2DEC0B5EAEE4 /* Frameworks */ = {
