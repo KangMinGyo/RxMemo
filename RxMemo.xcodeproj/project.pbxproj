@@ -19,6 +19,10 @@
 		8C715EFD289AA309003BDA2E /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715EFC289AA309003BDA2E /* MemoListViewController.swift */; };
 		8C715EFF289AA332003BDA2E /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715EFE289AA332003BDA2E /* MemoDetailViewController.swift */; };
 		8C715F01289AA39C003BDA2E /* MemoComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715F00289AA39C003BDA2E /* MemoComposeViewController.swift */; };
+		8C715F03289AA510003BDA2E /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715F02289AA510003BDA2E /* MemoListViewModel.swift */; };
+		8C715F05289AA53B003BDA2E /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715F04289AA53B003BDA2E /* MemoDetailViewModel.swift */; };
+		8C715F07289AA569003BDA2E /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715F06289AA569003BDA2E /* MemoComposeViewModel.swift */; };
+		8C715F09289AA68E003BDA2E /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715F08289AA68E003BDA2E /* ViewModelBindableType.swift */; };
 		B91D32E9F478B6B5E107C302 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35853CCAAEF5AC39B6964D1F /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,10 @@
 		8C715EFC289AA309003BDA2E /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
 		8C715EFE289AA332003BDA2E /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
 		8C715F00289AA39C003BDA2E /* MemoComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewController.swift; sourceTree = "<group>"; };
+		8C715F02289AA510003BDA2E /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		8C715F04289AA53B003BDA2E /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
+		8C715F06289AA569003BDA2E /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
+		8C715F08289AA68E003BDA2E /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 				8C715EFC289AA309003BDA2E /* MemoListViewController.swift */,
 				8C715EFE289AA332003BDA2E /* MemoDetailViewController.swift */,
 				8C715F00289AA39C003BDA2E /* MemoComposeViewController.swift */,
+				8C715F08289AA68E003BDA2E /* ViewModelBindableType.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 		8C715EF12898F74E003BDA2E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8C715F02289AA510003BDA2E /* MemoListViewModel.swift */,
+				8C715F04289AA53B003BDA2E /* MemoDetailViewModel.swift */,
+				8C715F06289AA569003BDA2E /* MemoComposeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -281,11 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C715EFB2899018A003BDA2E /* MemoryStorage.swift in Sources */,
+				8C715F07289AA569003BDA2E /* MemoComposeViewModel.swift in Sources */,
 				8C715EFF289AA332003BDA2E /* MemoDetailViewController.swift in Sources */,
+				8C715F09289AA68E003BDA2E /* ViewModelBindableType.swift in Sources */,
 				8C715ED92898F1B6003BDA2E /* AppDelegate.swift in Sources */,
 				8C715EF72898FEAF003BDA2E /* MemoStorageType.swift in Sources */,
 				8C715EDB2898F1B6003BDA2E /* SceneDelegate.swift in Sources */,
 				8C715EE32898F1B6003BDA2E /* RxMemo.xcdatamodeld in Sources */,
+				8C715F03289AA510003BDA2E /* MemoListViewModel.swift in Sources */,
+				8C715F05289AA53B003BDA2E /* MemoDetailViewModel.swift in Sources */,
 				8C715EFD289AA309003BDA2E /* MemoListViewController.swift in Sources */,
 				8C715F01289AA39C003BDA2E /* MemoComposeViewController.swift in Sources */,
 				8C715EF52898FCAE003BDA2E /* Memo.swift in Sources */,
